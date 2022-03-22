@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-express-template",
+  "version": "1.0.0",
+  "description": "A fast template for creating server architecture with the bare minimum installed.",
+  "main": "dist/index.js",
+  "repository": "git@github.com:JacobRWebb/nodejs-express-template.git",
+  "author": "JacobRWebb <xxpwnage37xx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc",
+    "start": "tsc && nodemon dist/index.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.22",
+    "tsc-watch": "^4.6.2",
+    "typescript": "^4.6.2"
+  }
+}
